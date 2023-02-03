@@ -1,0 +1,19 @@
+.App {
+   text-align: center;
+   display:flex;
+   flex-direction: column;
+   width: 100vw;
+   height: auto;
+   justify-content: center;
+   align-items: center;
+}
+
+:root { 
+   background-color: #050516;
+}
+
+@media (width < 800px){
+   .app{
+      flex-direction: row;
+   }
+}
